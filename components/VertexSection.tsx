@@ -1,0 +1,36 @@
+import { Reveal } from "@/components/Reveal";
+import { vertexPillars } from "@/data/site";
+
+export function VertexSection() {
+  return (
+    <div className="grid gap-6 lg:grid-cols-[1.08fr_1fr] lg:gap-7">
+      <Reveal>
+        <div className="h-full border border-white/12 bg-surface/85 p-6 shadow-panel sm:p-7">
+          <p className="text-[11px] uppercase tracking-[0.18em] text-accentBright">Founder Framing</p>
+          <h3 className="mt-4 font-display text-3xl font-semibold text-text">Vertex Studios</h3>
+          <p className="mt-4 text-sm leading-relaxed text-muted sm:text-[15px]">
+            Vertex Studios is a student-driven game and creative technology initiative focused on
+            helping students and graduates gain real project experience through collaborative
+            execution.
+          </p>
+          <p className="mt-4 text-sm leading-relaxed text-muted sm:text-[15px]">
+            I lead product direction, team coordination, and technical delivery to ensure every
+            build has portfolio-level quality and practical impact.
+          </p>
+        </div>
+      </Reveal>
+
+      <div className="grid gap-4 sm:grid-cols-2">
+        {vertexPillars.map((pillar, index) => (
+          <Reveal key={pillar.title} delay={0.05 * index}>
+            <article className="h-full border border-white/12 bg-panel p-5">
+              <p className="text-[11px] uppercase tracking-[0.16em] text-muted">{pillar.marker}</p>
+              <h4 className="mt-2 font-display text-xl text-text">{pillar.title}</h4>
+              <p className="mt-2 text-sm leading-relaxed text-muted">{pillar.description}</p>
+            </article>
+          </Reveal>
+        ))}
+      </div>
+    </div>
+  );
+}
