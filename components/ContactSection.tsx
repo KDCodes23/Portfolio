@@ -12,7 +12,7 @@ export function ContactSection() {
           </p>
 
           <h3 className="mt-3 font-display text-3xl font-semibold text-text sm:text-4xl">
-            Frontend & full stack developer open to opportunities.
+            Full stack developer open to opportunities.
           </h3>
 
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted sm:text-[15px]">

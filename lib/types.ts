@@ -9,7 +9,7 @@ export type Project = {
   title: string;
   summary: string;
   tech: string[];
-  status: "LIVE" | "PROTOTYPE" | "CASE STUDY";
+  status: "LIVE" | "PROTOTYPE" | "CASE STUDY" | "INPROGRESS";
   links: {
     demo?: string;
     github?: string;

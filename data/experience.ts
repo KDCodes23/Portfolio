@@ -70,12 +70,12 @@ export const experienceGroups = [
       "Rapid product development, experimentation, and collaboration under tight timelines.",
     items: [
       {
-        title: "Hackathon Builds",
-        organization: "Various Events",
-        period: "2025 – Present",
+        title: " Consensus2025",
+        organization: "Consensus2025",
+        period: "2025",
         type: "Hackathon",
         summary:
-          "Created prototypes and explored new ideas through fast-paced team and solo builds."
+          "Created prototype  Stellica, a crypto wallet and transaction platform built for Discord during an intense and inspiring hackathon weekend! Stellica was created to make crypto transactions seamless, secure, and accessible directly inside Discord. From trading and wallet management to real-time alerts, we aimed to bring a full-featured crypto experience to the communities that use Discord every day."
       }
     ]
   },
@@ -92,6 +92,14 @@ export const experienceGroups = [
         type: "Studio",
         summary:
           "Leading creative builds, digital products, and collaborative concepts across development and design."
+      },
+      {
+        title: "Game Development",
+        organization: "Vertex Studios",
+        period: "2024 – Present",
+        type: "Studio",
+        summary:
+          "Building playable systems and multiplayer experiences with production-minded iteration."
       }
     ]
   }

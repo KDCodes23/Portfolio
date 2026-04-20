@@ -22,7 +22,7 @@ export const projects: Project[] = [
     summary:
       "A studio platform built to communicate mission, projects, and execution quality while supporting future portfolio and team expansion.",
     tech: ["Next.js", "Framer Motion", "TypeScript", "Supabase"],
-    status: "LIVE",
+    status: "INPROGRESS",
     links: {
       demo: "#",
       github: "#"
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     summary:
       "A full-stack dashboard for stock tracking, analytics, and operations with role-based workflows and reliable data handling.",
     tech: ["React", "Express", "MongoDB", "Docker"],
-    status: "LIVE",
+    status: "INPROGRESS",
     links: {
       demo: "#",
       github: "#"
