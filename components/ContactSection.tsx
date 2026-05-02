@@ -12,7 +12,7 @@ export function ContactSection() {
           </p>
 
           <h3 className="mt-3 font-display text-3xl font-semibold text-text sm:text-4xl">
-            Full stack developer open to opportunities.
+            Front-end focused Full-Stack developer looking for opportunities.
           </h3>
 
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted sm:text-[15px]">
@@ -35,7 +35,7 @@ export function ContactSection() {
           <a
             href="https://github.com/KDCodes23"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="transition hover:text-accentBright font-medium"
           >
             GitHub · @KDCodes23
@@ -44,7 +44,7 @@ export function ContactSection() {
           <a
             href="https://www.linkedin.com/in/kanishka-dutta-97491918a/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="transition hover:text-accentBright font-medium"
           >
             LinkedIn · Kanishka Dutta

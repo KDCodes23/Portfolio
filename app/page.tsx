@@ -3,7 +3,7 @@ import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
-import { ProfileImageSection } from "@/components/ProfileImageSection";
+/*import { ProfileImageSection } from "@/components/ProfileImageSection";*/
 import { ProjectsGrid } from "@/components/ProjectsGrid";
 import { SectionWrapper } from "@/components/SectionWrapper";
 import { SkillsSection } from "@/components/SkillsSection";
@@ -18,7 +18,7 @@ export default function HomePage() {
 
       <main>
         <Hero />
-        <ProfileImageSection />
+        {/* <ProfileImageSection /> */}
 
         <SectionWrapper
           id="projects"
@@ -28,17 +28,15 @@ export default function HomePage() {
         >
           <ProjectsGrid />
         </SectionWrapper>
-
         <SectionWrapper
-          id="vertex"
+          id="experience"
           marker="Section 02"
-          title="Vertex Studios"
-          subtitle="A student-driven game and creative technology initiative designed to create real production experience."
+          title="Experience & Momentum"
+          subtitle="Leadership, shipping history, and iterative building across student and indie projects."
         >
-          <VertexSection />
+          <ExperienceTimeline />
         </SectionWrapper>
-
-        <SectionWrapper
+         <SectionWrapper
           id="skills"
           marker="Section 03"
           title="Skills & Tech Stack"
@@ -46,16 +44,14 @@ export default function HomePage() {
         >
           <SkillsSection />
         </SectionWrapper>
-
         <SectionWrapper
-          id="experience"
+          id="vertex"
           marker="Section 04"
-          title="Experience & Momentum"
-          subtitle="Leadership, shipping history, and iterative building across student and indie projects."
+          title="Vertex Studios"
+          subtitle="A student-driven game and creative technology initiative designed to create real production experience."
         >
-          <ExperienceTimeline />
+          <VertexSection />
         </SectionWrapper>
-
         <SectionWrapper
           id="contact"
           marker="Section 05"

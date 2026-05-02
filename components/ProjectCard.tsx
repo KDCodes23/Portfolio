@@ -73,9 +73,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
             Live Demo
           </a>
         ) : null}
-        {project.links.github ? (
+        {project.links.caseStudy ? (
           <a
-            href={project.links.github}
+            href={project.links.caseStudy}
             className="inline-flex min-h-10 items-center rounded-md border border-white/20 bg-white/10 px-3 py-2 text-xs uppercase tracking-[0.12em] text-text transition hover:bg-white/15"
           >
             GitHub

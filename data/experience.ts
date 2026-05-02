@@ -1,9 +1,11 @@
+import { title } from "node:process";
+
 export const experienceGroups = [
   {
     title: "Projects",
     type: "Category",
     summary:
-      "Frontend, full stack, and creative builds focused on usability, performance, and real-world product development.",
+      "Frontend focused, Full Stack, and creative builds focused on usability, performance, and real-world product development.",
     items: [
       {
         title: "Full Stack & Frontend Projects",
@@ -20,6 +22,14 @@ export const experienceGroups = [
         type: "Projects",
         summary:
           "Developed experimental web apps, UI systems, and game prototypes to strengthen practical development skills."
+      },
+      {
+        title:"Mental Wellness App",
+        organization:"Personal Project",
+        period:"2026",
+        type:"Project",
+        summary:
+          "Designed and developed a mental wellness web app focused on mindfulness exercises, mood tracking, and personalized self-care recommendations. Built with React and Next.js, the app features a clean and calming interface to help users manage stress and improve their mental well-being."
       }
     ]
   },
@@ -54,7 +64,7 @@ export const experienceGroups = [
           "Built customer relationships and supported day-to-day sales and reporting operations."
       },
       {
-        title: "Sales Associate",
+        title: "Retail Sales Associate",
         organization: "Dollarama · Waterloo, ON",
         period: "Aug 2019 – Mar 2020",
         type: "Work",

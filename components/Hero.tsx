@@ -75,25 +75,31 @@ export function Hero() {
           <p className="mt-6 max-w-[62ch] text-base leading-relaxed text-muted sm:text-lg">{siteMeta.valueProp}</p>
 
           <div className="mt-8 flex flex-wrap items-center gap-2.5 sm:gap-3">
-            <a
-              href="#projects"
+             <a
+              href="/#"
               className="inline-flex min-h-11 items-center rounded-md border border-accent/60 bg-accent px-5 py-3 text-sm font-medium text-white transition hover:bg-accentBright"
             >
-              View Projects
+              Resume
             </a>
             <a
-              href={siteMeta.resumeUrl}
+              href="#projects"
               className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-white/10 px-5 py-3 text-sm font-medium text-text transition hover:bg-white/15"
             >
-              Resume
+              View Projects
             </a>
             <a
               href={siteMeta.github}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-transparent px-5 py-3 text-sm font-medium text-muted transition hover:border-white/35 hover:text-text"
+              className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-transparent px-5 py-3 text-sm font-medium text-text transition hover:border-white/35 hover:text-text"
             >
               GitHub
+            </a>
+             <a
+              href="#contact"
+              className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-transparent px-5 py-3 text-sm font-medium text-text transition hover:border-white/35 hover:text-text"
+            >
+              Contact
             </a>
           </div>
         </motion.div>

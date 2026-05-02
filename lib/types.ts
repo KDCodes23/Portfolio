@@ -12,7 +12,7 @@ export type Project = {
   status: "LIVE" | "PROTOTYPE" | "CASE STUDY" | "INPROGRESS";
   links: {
     demo?: string;
-    github?: string;
+    caseStudy?: string;
     caseStudy?: string;
   };
 };
@@ -27,6 +27,13 @@ export type ExperienceItem = {
   organization: string;
   period: string;
   type: string;
+  summary: string;
+};
+export type EducationItem = {
+  schoolName: string;
+  location: string;
+  period: string;
+  degree: string;
   summary: string;
 };
 

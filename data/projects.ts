@@ -10,8 +10,6 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "OpenAI API", "Tailwind"],
     status: "CASE STUDY",
     links: {
-      demo: "#",
-      github: "#",
       caseStudy: "#"
     }
   },
@@ -24,8 +22,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Framer Motion", "TypeScript", "Supabase"],
     status: "INPROGRESS",
     links: {
-      demo: "#",
-      github: "#"
+      caseStudy: "#"
     }
   },
   {
@@ -37,7 +34,19 @@ export const projects: Project[] = [
     tech: ["Node.js", "WebSocket", "Express", "Canvas"],
     status: "PROTOTYPE",
     links: {
-      github: "#",
+      caseStudy: "#",
+    }
+  },
+  { 
+    
+    id: "Mental-Wellness-App",
+    indexLabel: "BUILD 07",
+    title: "Mental Wellness App",
+    summary:
+      "Designed and developed a mental wellness web app focused on mindfulness exercises, mood tracking, and personalized self-care recommendations. Built with React and Next.js, the app features a clean and calming interface to help users manage stress and improve their mental well-being.",
+    tech: ["React", "Next.js", "TypeScript", "Tailwind"],
+    status: "CASE STUDY",
+    links: {
       caseStudy: "#"
     }
   },
@@ -50,7 +59,6 @@ export const projects: Project[] = [
     tech: ["TypeScript", "Discord API", "Stellar SDK", "PostgreSQL"],
     status: "CASE STUDY",
     links: {
-      github: "#",
       caseStudy: "#"
     }
   },
@@ -63,8 +71,7 @@ export const projects: Project[] = [
     tech: ["React", "Express", "MongoDB", "Docker"],
     status: "INPROGRESS",
     links: {
-      demo: "#",
-      github: "#"
+      caseStudy: "#"
     }
   },
   {
@@ -76,7 +83,7 @@ export const projects: Project[] = [
     tech: ["Unity", "C#", "Godot", "Game Design"],
     status: "PROTOTYPE",
     links: {
-      github: "#"
+      caseStudy: "#"
     }
   }
 ];

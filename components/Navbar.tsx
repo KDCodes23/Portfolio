@@ -70,7 +70,7 @@ export function Navbar() {
           type="button"
           onClick={() => setIsOpen((prev) => !prev)}
           className="inline-flex items-center justify-center rounded-full border border-white/20 px-3 py-2 text-muted transition hover:text-text lg:hidden"
-          aria-expanded={isOpen}
+          aria-expanded={isOpen ? "true" : "false"}
           aria-label="Toggle menu"
         >
           {isOpen ? (

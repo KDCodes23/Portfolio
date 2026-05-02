@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Kanishka Dutta - Portfolio",
   description:
-    "Full-stack developer and founder of Vertex Studios. Premium portfolio featuring product-grade projects and creative technology work."
+    "Front-end focused Full-Stack developer and founder of Vertex Studios. Personal portfolio showcasing projects, skills, and experience in web development. Passionate about creating innovative solutions and building impactful applications."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

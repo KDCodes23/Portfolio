@@ -9,9 +9,7 @@ export function VertexSection() {
           <p className="text-[11px] uppercase tracking-[0.18em] text-accentBright">Founder Framing</p>
           <h3 className="mt-4 font-display text-3xl font-semibold text-text">Vertex Studios</h3>
           <p className="mt-4 text-sm leading-relaxed text-muted sm:text-[15px]">
-            Vertex Studios is a student-driven game and creative technology initiative focused on
-            helping students and graduates gain real project experience through collaborative
-            execution.
+            Vertex Studios in a indie studio focused on game development, student collaboration, portfolio projects, and creative technology. We build real projects that demonstrate craft, process, and impact while supporting the growth of emerging talent in the industry.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-muted sm:text-[15px]">
             I lead product direction, team coordination, and technical delivery to ensure every

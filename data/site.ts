@@ -2,7 +2,6 @@ import type { NavItem, VertexPillar } from "@/lib/types";
 
 export const navItems: NavItem[] = [
   { id: "hero", label: "Profile" },
-  { id: "portrait", label: "Portrait" },
   { id: "projects", label: "Projects" },
   { id: "vertex", label: "Vertex Studios" },
   { id: "skills", label: "Stack" },
@@ -12,7 +11,7 @@ export const navItems: NavItem[] = [
 
 export const siteMeta = {
   name: "Kanishka Dutta",
-  roleLine: "Frontend Developer | Full-Stack Builder | Founder of Vertex Studios",
+  roleLine: "Full-Stack Developer | Frontend Builder | Founder of Vertex Studios",
   valueProp:
     "I design and ship high-fidelity digital products that blend technical precision with strong visual identity. I build interfaces that are fast, clear, and made to stand out in real-world use.",
   location: "Kitchener, Ontario, Canada",
