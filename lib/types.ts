@@ -13,7 +13,6 @@ export type Project = {
   links: {
     demo?: string;
     caseStudy?: string;
-    caseStudy?: string;
   };
 };
 
