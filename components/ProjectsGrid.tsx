@@ -13,7 +13,7 @@ export function ProjectsGrid() {
             delay={idx * 0.05}
             className="min-w-[82%] snap-start"
           >
-            <ProjectCard project={project} compact />
+            <ProjectCard project={project} />
           </Reveal>
         ))}
       </div>
