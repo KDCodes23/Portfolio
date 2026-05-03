@@ -18,7 +18,7 @@ export const siteMeta = {
   focus: "React, Next.js, TypeScript, Systems UI",
   availability: "Open to full-time roles, internships, and client work",
   email: "Kdutta2017@outlook.com",
-  github: "https://github.com/kanishkadutta",
+  github: "https://github.com/KDCodes23",
   linkedin: "https://www.linkedin.com/in/kanishkadutta",
   discord: "kanishka.vertex",
   resumeUrl: "#",

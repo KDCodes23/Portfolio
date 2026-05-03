@@ -5,6 +5,7 @@ import { EASE_OUT_QUAD, MOTION_SECONDS, canRunStylizedMotion, observeOnce } from
 import { runHeroGridAccentAnimation, runHeroTypographyAnimation } from "@/lib/animations/heroAnimation";
 import { motion, useReducedMotion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 
 const heroMeta = [
   { label: "Location", value: siteMeta.location },
@@ -75,32 +76,32 @@ export function Hero() {
           <p className="mt-6 max-w-[62ch] text-base leading-relaxed text-muted sm:text-lg">{siteMeta.valueProp}</p>
 
           <div className="mt-8 flex flex-wrap items-center gap-2.5 sm:gap-3">
-             <a
-              href="/#"
+             <Link
+              href="/"
               className="inline-flex min-h-11 items-center rounded-md border border-accent/60 bg-accent px-5 py-3 text-sm font-medium text-white transition hover:bg-accentBright"
             >
               Resume
-            </a>
-            <a
+            </Link>
+            <Link
               href="#projects"
               className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-white/10 px-5 py-3 text-sm font-medium text-text transition hover:bg-white/15"
             >
               View Projects
-            </a>
-            <a
+            </Link>
+            <Link
               href={siteMeta.github}
               target="_blank"
               rel="noreferrer"
               className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-transparent px-5 py-3 text-sm font-medium text-text transition hover:border-white/35 hover:text-text"
             >
               GitHub
-            </a>
-             <a
+            </Link>
+             <Link
               href="#contact"
               className="inline-flex min-h-11 items-center rounded-md border border-white/20 bg-transparent px-5 py-3 text-sm font-medium text-text transition hover:border-white/35 hover:text-text"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </motion.div>
 

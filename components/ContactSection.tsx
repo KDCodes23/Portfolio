@@ -8,7 +8,7 @@ export function ContactSection() {
         {/* LEFT */}
         <div>
           <p className="text-[11px] uppercase tracking-[0.18em] text-accentBright">
-            LET'S CONNECT
+            Let&apos;s build something together
           </p>
 
           <h3 className="mt-3 font-display text-3xl font-semibold text-text sm:text-4xl">
