@@ -4,7 +4,7 @@ A modern personal portfolio website built to showcase my work as a developer, de
 
 This portfolio is designed to be more than a simple resume page. It highlights my projects, technical skills, experience, and creative work in one place. The goal is to give recruiters, collaborators, and clients a clear view of what I can build and how I approach software development.
 
-Live site: [your-domain-here.com](https://your-domain-here.com)
+Live site: (https://kdcodes.dev/)
 
 ---
 
