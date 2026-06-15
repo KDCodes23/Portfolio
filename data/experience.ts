@@ -40,6 +40,14 @@ export const experienceGroups = [
       "Customer-facing and fast-paced roles that strengthened communication, adaptability, and operational problem-solving.",
     items: [
       {
+        title: "Technical Support Specialist / Seller",
+        organization: "PayMore · Kitchener, ON",
+        period: "May 2026 – Present",
+        type: "Work",
+        summary:
+          "Test, catalogue, and list secondhand electronics across multiple sales platforms (eBay, Shopify), managing inventory and fulfillment in a high-volume retail environment."
+      },
+      {
         title: "Sales Associate",
         organization: "Krazy Binz · Kitchener, ON",
         period: "Jun 2025 – Present",

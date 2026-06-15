@@ -26,7 +26,15 @@ export const educationTimeline = [
         period: "2023 - 2025",
         degree: "Diploma in Software Development",
         summary: "Intensive program focusing on advanced software development techniques, including full-stack development, cloud computing, and agile methodologies."
+        },
+        {
+            schoolName: "Conestoga College Waterloo campus",
+            location: "Waterloo, ON",
+            period: "2025 - Present",
+            degree: "Bachelor of Computer Science with Honours",
+            summary: "Direct entry into Level 6. Previously completed Computer Programming diploma (GPA: 3.95/4.0)"
         }
+
     ]
     }
 ];

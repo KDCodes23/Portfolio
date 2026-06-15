@@ -46,7 +46,6 @@ export function Navbar() {
           <span className="font-display text-sm uppercase tracking-[0.3em] text-muted transition-colors group-hover:text-text">
             KD
           </span>
-          <span className="hidden text-xs uppercase tracking-[0.2em] text-muted sm:inline">Portfolio</span>
         </a>
 
         <nav className="hidden items-center gap-1.5 lg:flex" aria-label="Main navigation">
